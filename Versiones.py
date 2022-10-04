@@ -1,9 +1,3 @@
-# from pywebcopy import save_webpage
-
-
-# save_webpage(
-#       url="http://10.89.110.62:28081/service/rest/repository/browse/tgcs-maven-snapshot/com/toshibacommerce/ace/ACE3D001/",
-#       project_folder="C:\\Users\\brian.cobian\\Desktop\\IMDesatendida\\RESTAPI\\src\\page",
 #       project_name="temp",
 #       bypass_robots=True,
 #       debug=True,
@@ -54,8 +48,5 @@ def changeBat(fileDirectory):
                 contenido.writelines('  {\n  "id":'+str(f)+',\n  "nivel": "'+index+'"\n  },\n')
             contenido.writelines('  ]\n') if x == 2 else contenido.writelines('  ],\n')
       contenido.writelines('}\n')
-      
 # changeBat('.\\src\\page\\temp\\10.89.110.62\\service\\rest\\repository\\browse\\tgcs-maven-snapshot\\com\\toshibacommerce\\ace\\ACE3D001\\index.html')
-
-changeBat('./maven-metadata.xml')
-
+changeBat('maven-metadata.xml')
