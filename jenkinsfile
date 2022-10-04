@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage ('Starting the webpage') {
             steps {
-                sh "node /src/routes/callpy.js"
-                sh "cat /src/routes/Versiones.json"
+                sh "node callpy.js"
+                sh "cat Versiones.json"
                 sh "npm run dev"        
 
             }
