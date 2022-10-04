@@ -1,0 +1,72 @@
+{
+  "Jedi": [
+  {
+  "id":1,
+  "nivel": "V8R1SP2.j239.10"
+  },
+  {
+  "id":2,
+  "nivel": "V8R1SP2.j288"
+  },
+  {
+  "id":3,
+  "nivel": "V8R1SP2.j290"
+  },
+  {
+  "id":4,
+  "nivel": "V8R1SP2.j290.1"
+  },
+  {
+  "id":5,
+  "nivel": "V8R1SP2.j290.2"
+  },
+  {
+  "id":6,
+  "nivel": "V8R1SP2.j290.3"
+  },
+  {
+  "id":7,
+  "nivel": "V8R1SP2.j291"
+  },
+  {
+  "id":8,
+  "nivel": "V8R1SP2.j292"
+  },
+  {
+  "id":9,
+  "nivel": "V8R1SP2.j293"
+  },
+  {
+  "id":10,
+  "nivel": "V8R1SP2.j294"
+  }
+  ],
+  "Leia": [
+  {
+  "id":1,
+  "nivel": "V8R2.l169"
+  },
+  {
+  "id":2,
+  "nivel": "V8R2.l170"
+  },
+  {
+  "id":3,
+  "nivel": "V8R2.l171"
+  }
+  ],
+  "Morty": [
+  {
+  "id":1,
+  "nivel": "V8R3.m113"
+  },
+  {
+  "id":2,
+  "nivel": "V8R3.m113.1"
+  },
+  {
+  "id":3,
+  "nivel": "V8R3.m114"
+  }
+  ]
+}
