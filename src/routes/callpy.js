@@ -1,7 +1,7 @@
 const {spawn} = require('child_process');
 
 //Python app
-const py = spawn('python',['Versiones.py']);
+const py = spawn('python',['./src/routes/Versiones.py']);
 
 py.stdout.on('data', (data)=>{
     console.log(`Stdout ${data}`)
