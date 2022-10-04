@@ -4,6 +4,9 @@ pipeline {
     stages {
         stage ('Starting the webpage') {
             steps {
+                sh "cat Versiones.json"
+                sh"if [ -f/maven-metadata.xml ]; then rm maven-metadata.xml;else echo 'No, no existe'; fi"
+                sh "wget http://10.89.110.62:28081/repository/tgcs-maven-snapshot/com/toshibacommerce/ace/ACE3D001/maven-metadata.xml"
                 sh "node callpy.js"
                 sh "cat Versiones.json"
                 sh "npm run dev"        
