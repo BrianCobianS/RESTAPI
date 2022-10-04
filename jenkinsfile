@@ -3,9 +3,6 @@ pipeline {
     agent any
     stages {
         stage ('Starting the webpage') {
-                environment {
-                    CREDS=credentials('Jenkins-githubBrian')
-                }
             steps {
                 sh "node /src/routes/callpy.js"
                 sh "cat /src/routes/Versiones.json"
